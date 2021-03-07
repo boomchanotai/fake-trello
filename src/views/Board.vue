@@ -76,9 +76,6 @@ export default {
         TaskItem,
         Task
     },
-    props: {
-        id: String
-    },
     computed: {
         board() {
             return this.$store.state.board

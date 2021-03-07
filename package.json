@@ -14,6 +14,7 @@
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "^2.6.11",
+    "vue-horizontal-scroll": "^0.2.4",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
   },

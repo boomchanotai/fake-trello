@@ -2758,7 +2758,7 @@ core-js-compat@^3.6.5, core-js-compat@^3.8.1, core-js-compat@^3.9.0:
     browserslist "^4.16.3"
     semver "7.0.0"
 
-core-js@^3.6.5:
+core-js@^3.6.4, core-js@^3.6.5:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.1.tgz#cec8de593db8eb2a85ffb0dbdeb312cb6e5460ae"
   integrity sha512-gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg==
@@ -8313,6 +8313,14 @@ vue-eslint-parser@^7.0.0:
     espree "^6.2.1"
     esquery "^1.4.0"
     lodash "^4.17.15"
+
+vue-horizontal-scroll@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/vue-horizontal-scroll/-/vue-horizontal-scroll-0.2.4.tgz#dada0e0c2e88a9885575749e43230dbe79ef62d1"
+  integrity sha512-PoMVRAW4BswvL/uwqm1Do13qC/DaFMxgiOABPWvdIQUq9gQFwhSXJJ/hh/RJkafWbU43tY0Nf9/B3F0runqycw==
+  dependencies:
+    core-js "^3.6.4"
+    vue "^2.6.11"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
